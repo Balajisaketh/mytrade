@@ -36,9 +36,6 @@ import Fa from 'svelte-fa'
 .fontstyling{
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
-
-  
-
 }
 footer{
   background-color: black;
@@ -129,15 +126,15 @@ footer{
       <div class="d-flex flex-row justify-content-center  gx-2 col-12 mt-1 ">
         <div class="d-flex flex-row col-3 mx-3">
         <input type="radio"/>
-        <p class="mt-3 mx-2 follower">Equities/Etf</p>
+        <p class="mt-3 mx-2 follower family">Equities/Etf</p>
         </div>
         <div class="d-flex flex-row col-3 mx-3" >
           <input type="radio"/>
-          <p class="mt-3 mx-2 follower">Forex  </p>
+          <p class="mt-3 mx-2 follower family">Forex  </p>
           </div>
           <div class="d-flex flex-row col-4 mx-3">
             <input type="radio"/>
-            <p class="mt-3 mx-2 follower">Cryptocurrencis</p>
+            <p class="mt-3 mx-2 follower family">Cryptocurrencis</p>
             </div>
             
            
@@ -155,7 +152,7 @@ footer{
       <div class="col-3">
          <div class="d-flex flex-row">
           <input type="checkbox" class="m-2"/>
-          <p class="mt-2 follower">practice</p>
+          <p class="mt-2 follower family">practice</p>
 
          </div>
       </div>
@@ -186,7 +183,7 @@ footer{
       <hr>
     </div>
     <div class="d-flex flex-row justify-content-end">
-         <p class="mx-4 my-1 follower">01/12/2019</p>
+         <p class="mx-4 my-1 follower family">01/12/2019</p>
          
     </div>
     <div class="mt-2">
@@ -197,7 +194,7 @@ footer{
   </div>
   <hr>
   <div class="d-flex flex-row justify-content-end">
-    <p class="mx-4 my-1 follower">01/12/2019</p>
+    <p class="mx-4 my-1 follower family">01/12/2019</p>
     
 </div>
   <div class="mt-2">
@@ -208,7 +205,7 @@ footer{
 </div>
 <hr>
 <div class="d-flex flex-row justify-content-end">
-  <p class="mx-4 my-1 follower">01/12/2019</p>
+  <p class="mx-4 my-1 follower family">01/12/2019</p>
   
 </div>
 <div class="mt-2">
