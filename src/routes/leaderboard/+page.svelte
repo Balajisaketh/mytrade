@@ -430,14 +430,21 @@ import Fa from 'svelte-fa'
 <div class="col-12  mt-5 border border-2 rounded">
   <div class="column">
   <div class="d-flex flex-row mx-auto justify-content-evenly ">
-    <div class="mt-2 col-4 text-center child"  class:backcolor={check === 'firstdiv'} class:bgfront={check !== 'firstdiv'}  on:click={firstclick}>
-      <p>Equities/Etf</p>
+    <div class=" col-4  text-center child"  class:backcolor={check === 'firstdiv'} class:bgfront={check !== 'firstdiv'}  on:click={firstclick}>
+      <p class="mt-2">Equities/Etf</p>
     </div>
-    <div class="mt-2 col-2 text-center child1"  class:backcolor={check === 'seconddiv'} class:bgfront={check !== 'seconddiv'}  on:click={secondclick}>
-      <p>Forex</p>
+    <div class="vertical-line bg-warning">
+
     </div>
-    <div class="mt-2 col-4 text-center child2"  class:backcolor={check === 'thirddiv'} class:bgfront={check !== 'thirddiv'}  on:click={thirdclick}>
-      <p>Cryptocurrencies</p>
+    <div class="col-4 text-center child1"  class:backcolor={check === 'seconddiv'} class:bgfront={check !== 'seconddiv'}  on:click={secondclick}>
+      
+      <p class="mt-2">Forex</p>
+    </div>
+    <div class="vertical-line">
+
+    </div>
+    <div class="col-4 text-center child2"  class:backcolor={check === 'thirddiv'} class:bgfront={check !== 'thirddiv'}  on:click={thirdclick}>
+      <p class="mt-2">Cryptocurrencies</p>
     </div>
   </div>
   
