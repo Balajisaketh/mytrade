@@ -1,29 +1,9 @@
-<script>
-	
-	import './styles.css';
-	
-</script>
-
-<div class="app">
-	
-<header>
-
-</header>
-	<main>
-		<slot/>
-	</main>
-
-
-</div>
-
 <style>
-header{
-	width:100vw;
-	background-color: black;
-}
+	header {
+		width: 100vw;
+		background-color: black;
+	}
 	main {
-		
-
 		height: 100vh;
 		overflow-x: hidden;
 		width: 100vw;
@@ -31,8 +11,6 @@ header{
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-
-
 
 	footer a {
 		font-weight: bold;
@@ -44,3 +22,14 @@ header{
 		}
 	}
 </style>
+
+<script>
+	import './styles.css';
+</script>
+
+<div class="app">
+	<header></header>
+	<main>
+		<slot />
+	</main>
+</div>
